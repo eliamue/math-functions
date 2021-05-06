@@ -11,11 +11,16 @@ example and uses the values that were input into the function:
 "The sum of 4 and 7 is 11."
 */
 
-export function sum(kitty, puppy) {
+<<<<<<< Updated upstream
+export function sum(a, b) {
     return [
-        kitty + puppy, 
-        `The sum of ${kitty} and ${puppy} is ${kitty + puppy}.`
+        a + b, 
+        `The sum of ${a} and ${b} is ${a + b}.`
     ];
+=======
+export function sum(a, b) {
+    
+>>>>>>> Stashed changes
 }
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
